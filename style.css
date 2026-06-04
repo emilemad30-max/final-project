@@ -60,6 +60,9 @@ nav #logo:hover{
     scale: 1.1;
 }
 @media screen and (max-width:450px){
+    nav #logo{
+    font-family: "Libre Baskerville", serif;
+}
  nav #link{
     width: 130px;
     font-size: 20px;
@@ -266,6 +269,7 @@ nav #logo:hover{
 .offer .price .text1{
     padding-top:25px ;
     padding-left: 5px;
+    font-family: "Libre Baskerville", serif;
 }
 .offer .price .text1 h4{
     font-size: 20px;
@@ -288,6 +292,7 @@ nav #logo:hover{
 .offer .pordact .text2{
     padding-top:20px ;
     padding-left: 5px;
+    font-family: "Libre Baskerville", serif;
 }
 .offer .pordact .text2 h4{
     font-size: 26px;
@@ -425,6 +430,9 @@ nav #logo:hover{
     right: 10px;
 }
 @media screen and (max-width:450px){
+    .project .title{
+    font-family: "Libre Baskerville", serif;
+}
     .project .parent-pro .card .tt p{
     font-size: 14px;
 }
@@ -527,6 +535,7 @@ nav #logo:hover{
 @media screen and (max-width:450px){
 .book .input .title{
     text-align: center;
+    font-family: "Libre Baskerville", serif;
 }
 .book .input{
     font-size: 20px;
@@ -621,6 +630,9 @@ nav #logo:hover{
     border: 3px solid var(--hover);
 }
 @media screen and (max-width:450px){
+    .op .title{
+    font-family: "Libre Baskerville", serif;
+}
     .op .boox{
     flex-wrap: wrap;
 }
@@ -652,7 +664,7 @@ nav #logo:hover{
     justify-content:space-evenly;
     padding-top: 30px;
     color: var(--white);
-    font-family: "Architects Daughter", cursive;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
 }
 .contact .parent .t1{
     text-align: center;
@@ -697,9 +709,15 @@ nav #logo:hover{
 .contact .parent .t3{
     text-align: center;
     margin-bottom: 5px;
+}
+.contact .parent .t3 p{
+    font-size: 14px;
     color: var(--doo);
 }
 @media screen and (max-width:450px){
+    .contact .parent{
+    font-family: "Libre Baskerville", serif;
+}
 .contact .parent h3{
     color: var(--white);
 }
@@ -725,7 +743,12 @@ nav #logo:hover{
 }
 .contact .fainish{
     font-size: 15px;
-    font-family: "Architects Daughter";
+    font-family:"Edu AU VIC WA NT Guides", cursive;
     color: var(--doo);
     text-align: center;
+}
+@media screen and (max-width:450px){
+    .contact .fainish{
+    font-family: "Libre Baskerville", serif;
+}
 }
