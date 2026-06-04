@@ -81,6 +81,9 @@ nav #logo:hover{
 }
 }
  @media screen and (min-width:500px) and (max-width:900px){
+        nav #logo{
+    font-family: "Libre Baskerville", serif;
+}
      nav #link{
     width: 200px;
     font-size: 30px;
@@ -322,6 +325,7 @@ nav #logo:hover{
 .offer .price .text1{
     padding-top:25px ;
     padding-left: 5px;
+    font-family: "Libre Baskerville", serif;
 }
 .offer .price .text1 h4{
     font-size: 23px;
@@ -344,6 +348,7 @@ nav #logo:hover{
 .offer .pordact .text2{
     padding-top:20px ;
     padding-left: 10px;
+    font-family: "Libre Baskerville", serif;
 }
 .offer .pordact .text2 h4{
     font-size: 27px;
@@ -435,6 +440,11 @@ nav #logo:hover{
 }
     .project .parent-pro .card .tt p{
     font-size: 14px;
+}
+}
+@media screen and (min-width:550px) and (max-width:850px){
+        .project .title{
+    font-family: "Libre Baskerville", serif;
 }
 }
 /* ABOUT */
@@ -548,6 +558,9 @@ nav #logo:hover{
 }
 }
 @media screen and (min-width:550px) and (max-width:850px){
+    .book .input .title{
+    font-family: "Libre Baskerville", serif;
+}
     .book .input{
     font-size: 25px;
     width: 300px;
@@ -632,6 +645,7 @@ nav #logo:hover{
 @media screen and (max-width:450px){
     .op .title{
     font-family: "Libre Baskerville", serif;
+    font-size: 30px;
 }
     .op .boox{
     flex-wrap: wrap;
@@ -645,6 +659,9 @@ nav #logo:hover{
 }
 }
 @media screen and (min-width:550px) and (max-width:850px){
+    .op .title{
+    font-family: "Libre Baskerville", serif;
+}
 .op .boox .box1{
     width: 350px;
 }
@@ -732,6 +749,12 @@ nav #logo:hover{
     margin-bottom: 25px;
 }
 }
+@media screen and (min-width:550px) and (max-width:850px){
+       .contact .parent{
+    font-family: "Libre Baskerville", serif;
+}
+}
+/* line */
 .contact .line{
     display: flex;
     justify-content: center;
@@ -741,6 +764,7 @@ nav #logo:hover{
     height: .5px;
     background-color: var(--white);
 }
+/* fainish */
 .contact .fainish{
     font-size: 15px;
     font-family:"Edu AU VIC WA NT Guides", cursive;
@@ -749,6 +773,11 @@ nav #logo:hover{
 }
 @media screen and (max-width:450px){
     .contact .fainish{
+    font-family: "Libre Baskerville", serif;
+}
+}
+@media screen and (min-width:550px) and (max-width:850px){
+       .contact .parent{
     font-family: "Libre Baskerville", serif;
 }
 }
