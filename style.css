@@ -11,18 +11,6 @@
     --er:rgb(24, 19, 19);
     --pp:rgb(19, 27, 34);
 }
-.logo {
-    display: flex;
-    align-items: center;
-}
-.logo .img{
-    width: 40px;
-    height: auto;
-}
-.logo .name{
-    font-size: 30px;
-    color: black;
-}
 /* nav */
 nav{
     height: 70px;
@@ -41,7 +29,7 @@ nav #link:hover{
 nav #logo{
     font-size: 40px;
     font-weight: bold;
-    font-family: cursive;
+    font-family: "Architects Daughter", cursive;
     transition: all 2s;
 
 }
@@ -197,7 +185,7 @@ nav #logo:hover{
     background-size: cover;   
 }
 .offer .price .text1{
-    font-family: "Caveat", cursive;
+    font-family: "Architects Daughter", cursive;
     padding-top:40px ;
     padding-left: 10px;
     color: var(--white);
@@ -241,7 +229,7 @@ nav #logo:hover{
     background-size: cover;   
 }
 .offer .pordact .text2{
-    font-family: "Caveat", cursive;
+    font-family: "Architects Daughter", cursive;
     padding-top:40px ;
     padding-left: 10px;
     color: var(--white);
@@ -370,7 +358,7 @@ nav #logo:hover{
     width: 100%;
 }
 .project .title{
-    font-family: "Caveat", cursive;
+    font-family: "Architects Daughter", cursive;
     font-size: 40px;
     color: var(--text);
     margin-bottom: 30px;
@@ -436,6 +424,11 @@ nav #logo:hover{
     bottom: 13px;
     right: 10px;
 }
+@media screen and (max-width:450px){
+    .project .parent-pro .card .tt p{
+    font-size: 14px;
+}
+}
 /* ABOUT */
 .about{
     width: 100%;
@@ -467,6 +460,18 @@ nav #logo:hover{
     border-radius: 30px;
     margin-bottom: 20px;
 }
+@media screen and (max-width:450px){
+.about .img{
+    width: 40%;
+}
+.about .img img{
+    height: 400px;
+}
+.about .we{
+    width: 50%;
+    margin-top:20px;
+}
+}
 /* BOOK A TABLE */
 .book{
     margin-top:50px ;
@@ -485,7 +490,7 @@ nav #logo:hover{
     height: 70px;
     margin-top: 50px;
     color: var(--text);
-    font-family: "Caveat", cursive;
+    font-family: "Architects Daughter", cursive;
     font-size: 30px;
     margin: 10px;
 }
@@ -520,6 +525,9 @@ nav #logo:hover{
     margin-bottom: 100px;
 }
 @media screen and (max-width:450px){
+    .book .input .title{
+    text-align: center;
+}
 .book .input{
     font-size: 20px;
     width: 320px;
@@ -546,7 +554,7 @@ nav #logo:hover{
     width: 100%;
 }
 .op .title{
-    font-family: "Caveat", cursive;
+    font-family: "Architects Daughter", cursive;
     margin-top: 100px;
     margin-bottom: 100px;
     text-align: center;
@@ -644,8 +652,7 @@ nav #logo:hover{
     justify-content:space-evenly;
     padding-top: 30px;
     color: var(--white);
-    font-family: "Caveat", cursive;
-    /* margin-bottom: 30px; */
+    font-family: "Architects Daughter", cursive;
 }
 .contact .parent .t1{
     text-align: center;
@@ -718,7 +725,7 @@ nav #logo:hover{
 }
 .contact .fainish{
     font-size: 15px;
-    font-family: "Caveat", cursive;
+    font-family: "Architects Daughter", cursive;
     color: var(--doo);
     text-align: center;
 }
