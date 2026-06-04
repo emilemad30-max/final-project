@@ -525,7 +525,7 @@ nav #logo:hover{
     margin-bottom: 100px;
 }
 @media screen and (max-width:450px){
-    .book .input .title{
+.book .input .title{
     text-align: center;
 }
 .book .input{
@@ -725,7 +725,7 @@ nav #logo:hover{
 }
 .contact .fainish{
     font-size: 15px;
-    font-family: "Architects Daughter", cursive;
+    font-family: "Architects Daughter";
     color: var(--doo);
     text-align: center;
 }
