@@ -761,7 +761,7 @@ nav #logo:hover{
 }
 .contact .line hr{
     width: 80%;
-    height: .5px;
+    height: .75px;
     background-color: var(--white);
 }
 /* fainish */
@@ -776,8 +776,8 @@ nav #logo:hover{
     font-family: "Libre Baskerville", serif;
 }
 }
-@media screen and (min-width:451px) and (max-width:1150px){
-       .contact .fainish{
+@media screen and (min-width:550px) and (max-width:1150px){
+    .contact .fainish{
     font-family: "Libre Baskerville", serif;
 }
 }
