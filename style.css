@@ -24,27 +24,26 @@ nav #link{
 }
 nav #link:hover{
     color: var(--hover);
-    /* scale: 1.1; */
-    font-size: 16px;
-    padding: 1px 12px;
+    scale: 1.2;
 }
 nav #logo{
     font-size: 40px;
     font-weight: bold;
     font-family: "Architects Daughter", cursive;
     transition: all 2s;
-
 }
 nav #logo:hover{
     color: var(--hover);
-    scale: 1.1;
+    scale: 1.5;
     cursor: pointer;
 }
 .ord{
     padding: 1px 15px;
     background-color: var(--hover);
     border-radius: 30px;
+    text-align: center;
     transition: all 2s;
+    margin-bottom: 12px;
 }
 .ord .lin{
     text-decoration: none;
@@ -65,49 +64,51 @@ nav #logo:hover{
  nav #logo{
     font-family: "Libre Baskerville", serif;
 }
+#ee{
+    background-color: var(--white);
+    width: 175px;
+    padding: 10px;
+}
  nav #link{
-    width: 170px;
-    font-size: 18px;
-     background-color: var(--white);
+    font-size: 20px;
     color: var(--text);
     padding-left:10px;
+    transition: all 3s;
 }
-nav #link:hover{
-    color: var(--hover);
-    /* scale: 1.1; */
-    font-size: 23px;
-    padding: 1px 10px;
+nav #link :hover{
+    scale: 1.2;
 } 
 .ord{
     width: 150px;
     padding: 1px 2px;
     background-color: var(--hover);
+    padding-left:10px;
 }
 .ord .lin{
     color: var(--text);
     font-size: 20px;
 }
-/* .ord .lin:hover{
-    color: var(--hover);
-    scale: 1.1;
-    width: 130px;
-} */
 }
  @media screen and (min-width:500px) and (max-width:900px){
         nav #logo{
     font-family: "Libre Baskerville", serif;
 }
-     nav #link{
-    width: 200px;
-    font-size: 30px;
+#ee{
     background-color: var(--white);
+    width: 260px;
+    padding-left: 20px;
+}
+     nav #link{
+    font-size: 30px;
     color: var(--text);
-    padding-left:10px;
+    padding-left:20px;
 }
 .ord{
     width: 200px;
     padding: 1px 2px;
     background-color: var(--hover);
+    padding-left:10px;
+    
 }
 .ord .lin{
     color: var(--text);
