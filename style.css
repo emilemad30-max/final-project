@@ -695,9 +695,8 @@ nav #link :hover{
 /* contact */
 .contact{
     width: 100%;
-    height: 80vh;
     background-color: var(--pp);
-    
+    padding-bottom: 30px;
 }
 .contact .parent{
     display: flex;
